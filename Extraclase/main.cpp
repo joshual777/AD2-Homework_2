@@ -9,13 +9,6 @@ using namespace std;
 int main(int argc, char *argv[])
 {
     facade* fachada = new facade();
-    fachada->comparacion(5);
-
-    /*
-    QApplication a(argc, argv);
-    MainWindow w;
-    w.show();
-*/
-    //return a.exec();
+    fachada->comparacion(5); //si es 2 se dibuja rectangulo y si no un cuadrado
     return 0;
 }
