@@ -77,3 +77,4 @@ int main() {
   ModObserver modObs3(&subj, 3);
   subj.setVal(14);
 }
+//CODE TAKEN AND ADAPTED FROM https://sourcemaking.com/design_patterns/observer/cpp/3
